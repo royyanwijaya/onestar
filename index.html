@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Task Management Platform</title>
+
+	<!-- Meta Tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="author" content="Webestica.com">
+	<meta name="description" content="Bootstrap 5 based Social Media Network and Community Theme">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<!-- Google Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+
+	<!-- Plugins CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap-icons/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/OverlayScrollbars-master/css/OverlayScrollbars.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/tiny-slider/dist/tiny-slider.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/choices.js/public/assets/styles/choices.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/glightbox-master/dist/css/glightbox.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/dropzone/dist/dropzone.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/flatpickr/dist/flatpickr.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/plyr/plyr.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/zuck.js/dist/zuck.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/neuicons@1.9.0/css/neu.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<link rel="stylesheet" href="style.css">
+
+	<!-- Theme CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+	<!-- ======================= HEADER ======================= -->
+	<header class="navbar-light fixed-top header-static bg-mode">
+
+		<!-- Logo Nav START -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+
+				<!-- Logo START -->
+				<a class="navbar-brand" href="index.html">
+					<img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
+				</a>
+
+				<!-- Responsive navbar toggler -->
+				<button class="navbar-toggler ms-auto icon-md btn btn-light p-0" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-animation">
+						<span></span>
+						<span></span>
+						<span></span>
+					</span>
+				</button>
+
+				<!-- Main navbar START -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+
+					<!-- Nav Search START -->
+					<div class="nav mt-3 mt-lg-0 flex-nowrap align-items-center px-4 px-lg-0">
+						<div class="nav-item w-100">
+							<form class="rounded position-relative">
+								<input class="form-control ps-5 bg-light" type="search" placeholder="Search..."
+									aria-label="Search">
+								<button
+									class="btn bg-transparent px-2 py-0 position-absolute top-50 start-0 translate-middle-y"
+									type="submit"><i class="bi bi-search fs-5"> </i></button>
+							</form>
+						</div>
+					</div>
+					<!-- Nav Search END -->
+
+					<ul class="navbar-nav navbar-nav-scroll ms-auto">
+
+						<li class="nav-item">
+							<a class="nav-link" href="my-profile-connections.html">Wiki</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="my-profile-connections.html">Trello</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="https://app.timeoff.management/" target="_blank">Timeoff</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link" href="my-profile-connections.html">Help</a>
+						</li>
+
+					</ul>
+				</div>
+
+				<!-- Nav right START -->
+				<ul class="nav flex-nowrap align-items-center ms-sm-3 list-unstyled">
+					<li class="nav-item ms-2">
+						<a class="nav-link icon-md btn btn-light p-0" href="messaging.html">
+							<svg id="a" width="16" height="24" viewBox="0 0 24 24">
+								<path
+									d="m20,12c0,4.41827-3.58173,8-8,8s-8-3.58173-8-8S7.58173,4,12,4s8,3.58173,8,8ZM2,6L6,2h-3c-.55231,0-1,.44769-1,1v3ZM21,2h-3l4,4v-3c0-.55231-.44769-1-1-1ZM2,21c0,.55225.44769,1,1,1h3l-4-4v3Zm19,1c.55231,0,1-.44775,1-1v-3l-4,4h3Z"
+									fill="#676a79" />
+							</svg>
+						</a>
+					</li>
+					<li class="nav-item ms-2">
+						<a class="nav-link icon-md btn btn-light p-0" href="settings.html">
+							<svg id="a" width="16" height="24" viewBox="0 0 24 24">
+								<path
+									d="m4.5038,12.9185l-1.6378.9456c-.4783.2761-.6422.8877-.366,1.366l1.9527,3.3821c.2761.4783.8878.6422,1.366.366l1.6603-.9586c.3104-.1792.6866-.1575.9967.0221.0034.002.0068.004.0102.0059.3092.1783.5141.4932.5141.8501v2.1022c0,.5522.4477,1,1,1h4c.5523,0,1-.4478,1-1v-2.1022c0-.3569.2049-.6718.5141-.8501.0034-.002.0068-.004.0102-.0059.3101-.1796.6863-.2013.9967-.0221l1.6603.9586c.4783.2761,1.0899.1122,1.366-.366l1.9527-3.3821c.2761-.4783.1122-1.0899-.366-1.366l-1.6203-.9355c-.329-.1899-.5316-.541-.5314-.9209v-.0154c-.0001-.3799.2025-.731.5314-.921l1.6203-.9354c.4783-.2762.6422-.8878.366-1.366l-1.9527-3.3821c-.2761-.4783-.8878-.6422-1.366-.366l-1.6603.9586c-.3104.1792-.6866.1575-.9967-.0221-.0034-.002-.0068-.004-.0102-.0059-.3092-.1783-.5141-.4932-.5141-.8501v-2.1022c0-.5523-.4477-1-1-1h-4c-.5523,0-1,.4477-1,1v2.1022c0,.3569-.2049.6718-.5141.8501-.0034.002-.0068.004-.0102.0059-.3101.1796-.6863.2013-.9967.0221l-1.6603-.9586c-.4783-.2762-1.0899-.1123-1.366.366l-1.9527,3.3821c-.2761.4783-.1122,1.0898.366,1.366l1.6378.9456c.3237.1869.4976.5386.4972.9123v.0124c.0004.3738-.1735.7255-.4972.9123Zm7.4962-3.9185c1.6569,0,3,1.3431,3,3s-1.3431,3-3,3-3-1.3431-3-3,1.3431-3,3-3Z"
+									fill="#676a79" />
+							</svg>
+						</a>
+					</li>
+
+					<li class="nav-item ms-2 dropdown">
+						<a class="nav-link btn icon-md p-0" href="#" id="profileDropdown" role="button"
+							data-bs-auto-close="outside" data-bs-display="static" data-bs-toggle="dropdown"
+							aria-expanded="false">
+							<img class="avatar-img rounded-2" src="assets/images/avatar/placeholder.png" alt="">
+						</a>
+						<ul class="dropdown-menu dropdown-animation dropdown-menu-end pt-3 small me-md-n3"
+							aria-labelledby="profileDropdown">
+							<!-- Profile info -->
+							<li class="px-3">
+								<div class="d-flex align-items-center position-relative">
+									<!-- Avatar -->
+									<div class="avatar me-3">
+										<img class="avatar-img rounded-circle" src="assets/images/avatar/07.jpg"
+											alt="avatar">
+									</div>
+									<div>
+										<a class="h6 stretched-link" href="#">Lori Ferguson</a>
+										<p class="small m-0">Web Developer</p>
+									</div>
+								</div>
+								<a class="dropdown-item btn btn-primary-soft btn-sm my-2 text-center"
+									href="my-profile.html">View profile</a>
+							</li>
+							<!-- Links -->
+							<li><a class="dropdown-item" href="settings.html"><i
+										class="bi bi-gear fa-fw me-2"></i>Settings
+									& Privacy</a></li>
+							<li>
+								<a class="dropdown-item" href="https://support.webestica.com/" target="_blank">
+									<i class="fa-fw bi bi-life-preserver me-2"></i>Support
+								</a>
+							</li>
+							<li>
+								<a class="dropdown-item" href="docs/index.html" target="_blank">
+									<i class="fa-fw bi bi-card-text me-2"></i>Documentation
+								</a>
+							</li>
+							<li class="dropdown-divider"></li>
+							<li><a class="dropdown-item bg-danger-soft-hover" href="sign-in-advance.html"><i
+										class="bi bi-power fa-fw me-2"></i>Sign Out</a></li>
+							<li>
+								<hr class="dropdown-divider">
+							</li>
+							<!-- Dark mode options START -->
+							<li>
+								<div
+									class="modeswitch-item theme-icon-active d-flex justify-content-center gap-3 align-items-center p-2 pb-0">
+									<span>Mode:</span>
+									<button type="button" class="btn btn-modeswitch nav-link text-primary-hover mb-0"
+										data-bs-theme-value="light" data-bs-toggle="tooltip" data-bs-placement="top"
+										data-bs-title="Light">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+											fill="currentColor" class="bi bi-sun fa-fw mode-switch" viewBox="0 0 16 16">
+											<path
+												d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+											<use href="#"></use>
+										</svg>
+									</button>
+									<button type="button" class="btn btn-modeswitch nav-link text-primary-hover mb-0"
+										data-bs-theme-value="dark" data-bs-toggle="tooltip" data-bs-placement="top"
+										data-bs-title="Dark">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+											fill="currentColor" class="bi bi-moon-stars fa-fw mode-switch"
+											viewBox="0 0 16 16">
+											<path
+												d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+											<path
+												d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+											<use href="#"></use>
+										</svg>
+									</button>
+									<button type="button"
+										class="btn btn-modeswitch nav-link text-primary-hover mb-0 active"
+										data-bs-theme-value="auto" data-bs-toggle="tooltip" data-bs-placement="top"
+										data-bs-title="Auto">
+										<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+											fill="currentColor" class="bi bi-circle-half fa-fw mode-switch"
+											viewBox="0 0 16 16">
+											<path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+											<use href="#"></use>
+										</svg>
+									</button>
+								</div>
+							</li>
+							<!-- Dark mode options END-->
+						</ul>
+					</li>
+					<!-- Profile START -->
+
+				</ul>
+
+			</div>
+		</nav>
+		<!-- Logo Nav END -->
+	</header>
+
+	<!-- **************** MAIN CONTENT START **************** -->
+	<main>
+
+		<!-- Container START -->
+		<div class="container">
+
+			<div class="row g-4">
+
+				<!-- Sidenav START -->
+				<div class="col-lg-3">
+
+					<!-- Advanced filter responsive toggler START -->
+					<div class="d-flex align-items-center d-lg-none">
+						<button class="border-0 bg-transparent" type="button" data-bs-toggle="offcanvas"
+							data-bs-target="#offcanvasSideNavbar" aria-controls="offcanvasSideNavbar">
+							<span class="btn btn-primary"><i class="fa-solid fa-sliders-h"></i></span>
+							<span class="h6 mb-0 fw-bold d-lg-none ms-2">My profile</span>
+						</button>
+					</div>
+
+					<!-- Navbar START-->
+					<nav class="navbar navbar-expand-lg mx-0">
+
+						<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSideNavbar">
+
+							<!-- Offcanvas header -->
+							<div class="offcanvas-header">
+								<button type="button" class="btn-close text-reset ms-auto" data-bs-dismiss="offcanvas"
+									aria-label="Close"></button>
+							</div>
+
+							<!-- Offcanvas body -->
+							<div class="offcanvas-body d-block px-2 px-lg-0">
+
+								<!-- Card START -->
+								<div class="card">
+
+									<!-- Card body START -->
+									<div class="card-body pt-5">
+										<div class="text-center">
+											<!-- Avatar -->
+											<div class="avatar avatar-lg mt-n5 mb-3">
+												<img class="avatar-img rounded border border-white border-3"
+													alt="Profile picture" src="assets/images/avatar/placeholder.png">
+											</div>
+
+											<!-- Info -->
+											<h5 class="mb-0">
+												Patricia Doe
+											</h5>
+
+											<small>
+												Software Engineer
+											</small>
+
+											<!-- User stat START -->
+											<div class="hstack gap-2 gap-xl-3 justify-content-center mt-3">
+
+												<!-- User stat item -->
+												<div>
+													<h6 class="mb-0">24</h6>
+													<small>Todo</small>
+												</div>
+												<!-- Divider -->
+												<div class="vr"></div>
+												<!-- User stat item -->
+												<div>
+													<h6 class="mb-0">16</h6>
+													<small>Dangling post</small>
+												</div>
+												<!-- Divider -->
+												<div class="vr"></div>
+												<!-- User stat item -->
+												<div>
+													<h6 class="mb-0">8</h6>
+													<small>Issues</small>
+												</div>
+											</div>
+											<!-- User stat END -->
+										</div>
+
+										<!-- Divider -->
+										<hr>
+
+										<!-- Side Nav START -->
+										<ul class="nav nav-link-secondary flex-column fw-bold gap-2">
+
+											<li class="nav-item">
+												<a class="nav-link" href="my-profile.html">
+													<svg width="24" height="24" viewBox="0 0 24 24"><path d="m20,10.5v8.5c0,1.1-.9,2-2,2H6c-1.1,0-2-.9-2-2v-8.5c0-1.3.6-2.4,1.6-3.2l5.2-3.9c.7-.5,1.7-.5,2.4,0l5.2,3.9c1,.8,1.6,1.9,1.6,3.2Z" fill="#60a5fa"/><path d="m9.3,20.9v-4.4c0-1.5,1.2-2.7,2.7-2.7s2.7,1.2,2.7,2.7v4.4" fill="#dbeafe"/><path d="m6,21.5h12c1.4,0,2.5-1.1,2.5-2.5v-8.5c0-1.4-.7-2.8-1.8-3.6h0l-5.2-3.9c-.9-.7-2.1-.7-3,0l-5.2,3.9c-1.1.8-1.8,2.2-1.8,3.6v8.5c0,1.4,1.1,2.5,2.5,2.5Zm8.2-1h-4.4v-4c0-1.2,1-2.2,2.2-2.2s2.2,1,2.2,2.2v4ZM4.5,10.5c0-1.1.5-2.1,1.4-2.8l5.2-3.9c.3-.2.6-.3.9-.3s.6.1.9.3l5.2,3.9c.9.7,1.4,1.7,1.4,2.8v8.5c0,.8-.7,1.5-1.5,1.5h-2.8v-4c0-1.8-1.4-3.2-3.2-3.2s-3.2,1.4-3.2,3.2v4h-2.8c-.8,0-1.5-.7-1.5-1.5v-8.5Z" fill="#1d4ed8"/></svg>
+													<span class="ms-2">Activity</span></a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link" href="my-profile-connections.html">
+													<svg width="24" height="24" viewBox="0 0 24 24"><path d="m18.7,15c-1.1,4.3-5.5,6.8-9.7,5.7-4.3-1.1-6.8-5.5-5.7-9.7.7-2.8,2.9-5,5.7-5.7v7.7c0,1.1.9,2,2,2h7.7Z" fill="#60a5fa"/><path d="m21,13h-10V3c5.5,0,10,4.5,10,10Z" fill="#dbeafe"/><path d="m19.3,15c-1.1,4.6-5.7,7.4-10.3,6.3S1.6,15.6,2.7,11c.8-3.1,3.2-5.5,6.3-6.3v1c-4,1.2-6.3,5.3-5.2,9.3,1.1,4,5.2,6.3,9.2,5.2,2.5-.7,4.5-2.7,5.2-5.2,0,0,1.1,0,1.1,0Zm2.2-2c0,.3-.2.5-.5.5h-10c-.3,0-.5-.2-.5-.5V3c0-.3.2-.5.5-.5,5.8,0,10.5,4.7,10.5,10.5Zm-1-.5c-.3-4.9-4.1-8.7-9-9v9h9Z" fill="#1d4ed8"/></svg>
+													<span class="ms-2">Performance report</span>
+												</a>
+											</li>
+
+											<li class="nav-item">
+												<a class="nav-link" href="settings.html">
+													<svg width="24" height="24" viewBox="0 0 24 24"><path d="m21.1,13.9l-1.6-.9c-.3-.3-.5-.6-.5-1h0c0-.4.2-.7.5-.9l1.6-.9c.5-.3.6-.9.4-1.4l-2-3.4c-.3-.5-.9-.6-1.4-.4l-1.7,1c-.3.2-.7.2-1,0h0c-.2-.2-.4-.5-.4-.9v-2.1c0-.6-.4-1-1-1h-4c-.6,0-1,.4-1,1v2.1c0,.4-.2.7-.5.9h0c-.3.2-.7.2-1,0l-1.7-1c-.5-.3-1.1-.1-1.3.4l-2,3.4c-.3.5-.1,1.1.4,1.4l1.6.9c.3.2.5.5.5.9h0c0,.4-.2.7-.5.9l-1.6.9c-.5.3-.6.9-.4,1.4l2,3.4c.3.5.9.6,1.4.4l1.7-1c.3-.2.7-.2,1,0h0c.2.2.4.5.4.9v2.1c0,.6.4,1,1,1h4c.6,0,1-.4,1-1v-2.1c0-.4.2-.7.5-.9h0c.3-.2.7-.2,1,0l1.7,1c.5.3,1.1.1,1.4-.4l2-3.4c.2-.4,0-1.1-.5-1.3h0Zm-9.1,1.1c-1.7,0-3-1.3-3-3s1.3-3,3-3,3,1.3,3,3-1.3,3-3,3Z" fill="#60a5fa"/><path d="m2.6,13.4c-.3.2-.6.6-.7.9-.1.4-.1.8.1,1.1l2,3.4c.4.7,1.3,1,2,.5l1.7-1c.1-.1.3-.1.5,0s.3.3.3.4v2.3c0,.8.7,1.5,1.5,1.5h4c.8,0,1.5-.7,1.5-1.5v-2.1c0-.2.1-.3.3-.4s.4-.1.5,0l1.7,1c.7.4,1.6.2,2-.5l2-3.4c.2-.3.3-.8.2-1.1-.1-.4-.4-.7-.7-.9l-1.6-.9c-.2-.1-.3-.3-.3-.5s.1-.4.3-.5l1.6-.9c.3-.2.6-.5.7-.9s.1-.8-.1-1.1l-2-3.4c-.4-.7-1.3-1-2-.5l-1.7,1c-.1.1-.3.1-.5,0-.2-.1-.3-.3-.3-.4v-2.5c0-.8-.7-1.5-1.5-1.5h-4c-.9,0-1.6.7-1.6,1.5v2.1c0,.2-.1.3-.3.4s-.4.1-.5,0l-1.7-1c-.6-.3-1.6-.1-2,.6l-2,3.4c-.1.4-.2.8-.1,1.2.1.3.4.7.7.9l1.6.9c.2.1.2.3.2.5s-.1.4-.2.5l-1.6.9h0Zm2.2-2.8l-1.7-.9c-.1-.1-.2-.2-.2-.3s0-.3.1-.4l2-3.4c0-.2.3-.3.6-.1l1.7,1c.5.3,1,.3,1.5,0s.8-.8.8-1.3v-2.2c0-.3.2-.5.5-.5h4c.3,0,.5.2.5.5v2.1c0,.5.3,1,.8,1.3.5.3,1,.3,1.5,0l1.7-1c.2-.1.5-.1.7.2l2,3.4c.1.1.1.2,0,.4,0,.1-.1.2-.2.3l-1.6.9c-.5.3-.8.8-.8,1.4s.3,1.1.8,1.4l1.6.9h0c.1.1.2.2.2.3s0,.3-.1.4l-2,3.4c-.1.2-.4.3-.7.2l-1.7-1c-.5-.3-1-.3-1.5,0s-.8.8-.8,1.3v2.1c0,.3-.2.5-.5.5h-4c-.3,0-.5-.2-.5-.5v-2.1c0-.5-.3-1-.8-1.3-.2-.1-.5-.2-.8-.2-.2,0-.5.1-.7.2l-1.7,1c-.2.1-.5.1-.7-.2l-2-3.4c-.1-.1-.1-.2,0-.4,0-.1.1-.2.2-.3l1.6-.9c.5-.3.7-.8.7-1.4.2-.6-.1-1.1-.5-1.4h0Zm7.2,4.9c1.9,0,3.5-1.6,3.5-3.5s-1.6-3.5-3.5-3.5-3.5,1.6-3.5,3.5,1.6,3.5,3.5,3.5Zm0-6c1.4,0,2.5,1.1,2.5,2.5s-1.1,2.5-2.5,2.5-2.5-1.1-2.5-2.5,1.1-2.5,2.5-2.5Z" fill="#1d4ed8"/></svg>
+													<span class="ms-2">Settings</span>
+												</a>
+											</li>
+
+										</ul>
+
+									</div>
+
+								</div>
+
+								<!-- Copyright -->
+								<p class="small text-center mt-3">
+									Task Management Platform (TMP)<br>
+									©2023
+									<a class="text-body" target="_blank" href="https://www.nubela.co/">
+										Nubela
+									</a>
+								</p>
+
+							</div>
+						</div>
+
+					</nav>
+
+				</div>
+
+				<!-- Main content START -->
+				<div class="col-md-8 col-lg-6 vstack gap-4">
+
+					<!-- Highlight -->
+					<div class="carousel" data-flickity='{ "cellAlign": "left" }'>
+
+						<div class="carousel-cell">
+
+							<div class="card" style="border-bottom-color: #0f6fec; border-bottom-width: 3px;">
+
+								<div class="card-body card-height">
+
+									<div class="row align-items-top">
+										<div class="col-10">
+											<h5 class="h6">
+												34 tasks in Todo
+											</h5>
+										</div>
+										<div class="col-2">
+											<a href="#!">
+												<svg class="pb-2" width="16" height="24" viewBox="0 0 24 24">
+													<path d="m17.707,7.707l-4.293,4.293,4.293,4.293c.3906.3906.3906,1.0234,0,1.4141-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293l-4.293-4.293-4.293,4.293c-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293c-.3906-.3906-.3906-1.0234,0-1.4141l4.293-4.293-4.293-4.293c-.3906-.3906-.3906-1.0234,0-1.4141s1.0234-.3906,1.4141,0l4.293,4.293,4.293-4.293c.3906-.3906,1.0234-.3906,1.4141,0s.3906,1.0234,0,1.4141Z"/>
+												</svg>
+											</a>
+										</div>
+									</div>
+							
+									<!-- Text -->
+									<p class="text-gray-700 mb-3">
+										Currently you have more than 1 task in TODO.
+									</p>
+
+									<!-- Link -->
+									<a href="#!" class="fw-bold" target="_blank">
+										Visit Trello
+									</a>
+							
+								</div>
+
+							</div>
+
+						</div>
+						
+						<div class="carousel-cell">
+
+							<div class="card" style="border-bottom-color: #0f6fec; border-bottom-width: 3px;">
+
+								<div class="card-body card-height">
+
+									<div class="row align-items-start">
+										<div class="col-10">
+											<h5 class="h6">
+												Please pick a task
+											</h5>
+										</div>
+										<div class="col-2">
+											<a href="#!">
+												<svg class="pb-2" width="16" height="24" viewBox="0 0 24 24">
+													<path d="m17.707,7.707l-4.293,4.293,4.293,4.293c.3906.3906.3906,1.0234,0,1.4141-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293l-4.293-4.293-4.293,4.293c-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293c-.3906-.3906-.3906-1.0234,0-1.4141l4.293-4.293-4.293-4.293c-.3906-.3906-.3906-1.0234,0-1.4141s1.0234-.3906,1.4141,0l4.293,4.293,4.293-4.293c.3906-.3906,1.0234-.3906,1.4141,0s.3906,1.0234,0,1.4141Z"/>
+												</svg>
+											</a>
+										</div>
+									</div>
+							
+									<!-- Text -->
+									<p class="text-gray-700 mb-3">
+										Currently you are not picking up any tasks in TODO.
+									</p>
+							
+									<!-- Link -->
+									<a href="#!" class="fw-bold" target="_blank">
+										Visit Trello
+									</a>
+							
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="carousel-cell">
+
+							<div class="card" style="border-bottom-color: #0f6fec; border-bottom-width: 3px;">
+
+								<div class="card-body card-height">
+
+									<div class="row align-items-start">
+										<div class="col-10">
+											<h5 class="h6">
+												Cards needing a response
+											</h5>
+										</div>
+										<div class="col-2">
+											<a href="#!">
+												<svg class="pb-2" width="16" height="24" viewBox="0 0 24 24">
+													<path d="m17.707,7.707l-4.293,4.293,4.293,4.293c.3906.3906.3906,1.0234,0,1.4141-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293l-4.293-4.293-4.293,4.293c-.1953.1953-.4512.293-.707.293s-.5117-.0977-.707-.293c-.3906-.3906-.3906-1.0234,0-1.4141l4.293-4.293-4.293-4.293c-.3906-.3906-.3906-1.0234,0-1.4141s1.0234-.3906,1.4141,0l4.293,4.293,4.293-4.293c.3906-.3906,1.0234-.3906,1.4141,0s.3906,1.0234,0,1.4141Z"/>
+												</svg>
+											</a>
+										</div>
+									</div>
+							
+									<!-- Text -->
+									<p class="text-gray-700 mb-3">
+										Currently you have more than 1 task in TODO.
+									</p>
+							
+									<!-- Link -->
+									<a href="#!" class="fw-bold" target="_blank">
+										Visit Trello
+									</a>
+							
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- TODO -->
+					<h6 class="h4 mt-3 mb-0">
+						Todo
+					</h6>
+
+					<div class="card rounded-3 mb-3">
+
+						<div class="card-body">
+					
+							<ul class="list-group rounded-0">
+
+								<li class="list-group-item border-0 d-flex align-items-center ps-0">
+									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." checked />
+									<s class="text-muted">Revamping the Task Management Platform</s>
+								</li>
+								
+								<li class="list-group-item border-0 d-flex align-items-center ps-0">
+									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..."/>
+									Refreshing LinkDB's Landing Page
+								</li>
+
+								<li class="list-group-item border-0 d-flex align-items-center ps-0">
+									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." />
+									Create a new Person API Landing Page
+								</li>
+
+								<li class="list-group-item border-0 d-flex align-items-center ps-0">
+									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." />
+									Update the structure of the top navigation bar
+								</li>
+
+								<li class="list-group-item border-0 d-flex align-items-center ps-0">
+									<input class="form-check-input me-3" type="checkbox" value="" aria-label="..." />
+									Design 2 ads that we can use to promote Sapiengraph inline in existing blog posts
+								</li>
+
+							</ul>
+					
+						</div>
+
+					</div>
+
+					<h6 class="h4 mb-0">
+						News
+					</h6>
+
+					<!-- Comment card -->
+					<div class="card">
+
+						<div class="card-header border-0 pb-0">
+
+							<div class="d-flex align-items-center justify-content-between">
+								
+								<div class="d-flex align-items-top">
+
+									<div class="avatar avatar-xs me-2">
+										<a href="#!">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/Comment.svg" alt="icon">
+										</a>
+									</div>
+
+									<div class="align-items-top">
+
+										<div class="nav nav-divider">
+											<h6 class="nav-item mb-0">
+												<a href="#!" target="_blank">
+													Update the Buy Credits page with a new option to buy by Tweeting
+												</a>
+											</h6>
+										</div>
+
+										<span class="badge bg-secondary bg-opacity-10 text-secondary mt-2">
+											Comment
+										</span>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="card-body">
+
+							<p class="mb-2">
+								<span class="text-dark fw-bold">nubela</span> commented <span class="">2 hours ago.</span>
+							</p>
+
+							<div class="card mb-2">
+								<div class="card-body">
+									<p class="mb-0">
+										Moving to done.
+									</p>
+								</div>
+							</div>
+
+							<div class="text-end">
+								<a class="fw-bold text-primary" href="#!">
+									View on Trello
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Action card -->
+					<div class="card">
+
+						<div class="card-header border-0 pb-0">
+
+							<div class="d-flex align-items-center justify-content-between">
+								
+								<div class="d-flex align-items-top">
+
+									<div class="avatar avatar-xs me-2">
+										<a href="#!">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/Activity.svg" alt="icon">
+										</a>
+									</div>
+
+									<div class="align-items-top">
+
+										<div class="nav nav-divider">
+											<h6 class="nav-item mb-0">
+												<a href="#!" target="_blank">
+													FREE Reverse Email Lookup Tool
+												</a>
+											</h6>
+										</div>
+
+										<span class="badge bg-secondary bg-opacity-10 text-secondary mt-2">
+											Action
+										</span>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="card-body">
+
+							<p class="mb-2">
+								<span class="text-dark fw-bold">nubela</span> moved this card from Doing to Done <span class="">3 hours ago.</span>
+							</p>
+
+							<div class="text-end">
+								<a class="fw-bold text-primary" href="#!">
+									View on Trello
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Action card -->
+					<div class="card">
+
+						<div class="card-header border-0 pb-0">
+
+							<div class="d-flex align-items-center justify-content-between">
+								
+								<div class="d-flex align-items-top">
+
+									<div class="avatar avatar-xs me-2">
+										<a href="#!">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/Activity.svg" alt="icon">
+										</a>
+									</div>
+
+									<div class="align-items-top">
+
+										<div class="nav nav-divider">
+											<h6 class="nav-item mb-0">
+												<a href="#!" target="_blank">
+													FREE Reverse Email Lookup Tool
+												</a>
+											</h6>
+										</div>
+
+										<span class="badge bg-secondary bg-opacity-10 text-secondary mt-2">
+											Action
+										</span>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="card-body">
+
+							<p class="mb-2">
+								<span class="text-dark fw-bold">Aji Wandi</span> moved this card from Todo to Doing <span class="">3 hours ago.</span>
+							</p>
+
+							<div class="text-end">
+								<a class="fw-bold text-primary" href="#!">
+									View on Trello
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Deletion card -->
+					<div class="card">
+
+						<div class="card-header border-0 pb-0">
+
+							<div class="d-flex align-items-center justify-content-between">
+								
+								<div class="d-flex align-items-top">
+
+									<div class="avatar avatar-xs me-2">
+										<a href="#!">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/Deletion.svg" alt="icon">
+										</a>
+									</div>
+
+									<div class="align-items-top">
+
+										<div class="nav nav-divider">
+											<h6 class="nav-item mb-0">
+												<a href="#!" target="_blank">
+													Improve design of LinkDB pricing grid
+												</a>
+											</h6>
+										</div>
+
+										<span class="badge bg-secondary bg-opacity-10 text-secondary mt-2">
+											Deletion
+										</span>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="card-body">
+
+							<p class="mb-2">
+								<span class="text-dark fw-bold">nubela</span> archived this card <span>3 hours ago.</span>
+							</p>
+
+							<div class="text-end">
+								<a class="fw-bold text-primary" href="#!">
+									View on Trello
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Deletion card -->
+					<div class="card">
+
+						<div class="card-header border-0 pb-0">
+
+							<div class="d-flex align-items-center justify-content-between">
+								
+								<div class="d-flex align-items-top">
+
+									<div class="avatar avatar-xs me-2">
+										<a href="#!">
+											<img class="avatar-img rounded-circle" src="assets/images/avatar/Deletion.svg" alt="icon">
+										</a>
+									</div>
+
+									<div class="align-items-top">
+
+										<div class="nav nav-divider">
+											<h6 class="nav-item mb-0">
+												<a href="#!" target="_blank">
+													Card #999
+												</a>
+											</h6>
+										</div>
+
+										<span class="badge bg-secondary bg-opacity-10 text-secondary mt-2">
+											Deletion
+										</span>
+
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+
+						<div class="card-body">
+
+							<p class="mb-2">
+								<span class="text-dark fw-bold">nubela</span> deleted this card <span>5 hours ago.</span>
+							</p>
+
+							<div class="text-end">
+								<a class="fw-bold text-primary" href="#!">
+									View on Trello
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+
+					<!-- Load more button -->
+					<a href="#!" role="button" class="btn btn-loader btn-primary-soft" data-bs-toggle="button"
+						aria-pressed="true">
+						<span class="load-text"> Load more </span>
+						<div class="load-icon">
+							<div class="spinner-grow spinner-grow-sm" role="status">
+								<span class="visually-hidden">Loading...</span>
+							</div>
+						</div>
+					</a>
+
+				</div>
+
+				<!-- Right sidebar -->
+				<div class="col-lg-3">
+
+					<div class="row g-4">
+
+						<!-- High priority tasks-->
+						<div class="col-sm-6 col-lg-12">
+
+							<div class="card">
+
+								<!-- Card header START -->
+								<div class="card-header pb-0 border-0">
+									<h5 class="card-title mb-0">
+										High priority tasks
+									</h5>
+								</div>
+
+								<!-- Card body START -->
+								<div class="card-body">
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-warning text-secondary">
+												high-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Revamping the Task Management Platform
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-warning text-secondary">
+												high-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Refreshing LinkDB's Landing Page 
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-warning text-secondary">
+												high-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Create a new Person API Landing Page 
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-warning text-secondary">
+												high-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Update the structure of the top navigation bar 
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card">
+										
+										<div class="card-body">
+											<span class="badge bg-warning text-secondary">
+												high-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Design 2 ads that we can use to promote Sapiengraph inline in existing blog posts
+											</p>
+										</div>
+									
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+						<!-- Normal priority tasks-->
+						<div class="col-sm-6 col-lg-12">
+
+							<div class="card">
+
+								<!-- Card header START -->
+								<div class="card-header pb-0 border-0">
+									<h5 class="card-title mb-0">
+										Normal priority tasks
+									</h5>
+								</div>
+
+								<!-- Card body START -->
+								<div class="card-body">
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-secondary bg-opacity-10 text-secondary">
+												normal-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Revamping the Task Management Platform
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-secondary bg-opacity-10 text-secondary">
+												normal-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Refreshing LinkDB's Landing Page 
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-secondary bg-opacity-10 text-secondary">
+												normal-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Create a new Person API Landing Page 
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<span class="badge bg-secondary bg-opacity-10 text-secondary">
+												normal-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Update the structure of the top navigation bar 
+											</p>
+										</div>
+									
+									</div>
+
+									<div class="card">
+										
+										<div class="card-body">
+											<span class="badge bg-secondary bg-opacity-10 text-secondary">
+												normal-priority
+											</span>
+											<p class="small mb-0 mt-2">
+												Design 2 ads that we can use to promote Sapiengraph inline in existing blog posts
+											</p>
+										</div>
+									
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</main>
+
+</body>
+
+<!-- Bootstrap JS -->
+<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Vendors -->
+<script src="assets/vendor/tiny-slider/dist/tiny-slider.js"></script>
+<script src="assets/vendor/OverlayScrollbars-master/js/OverlayScrollbars.min.js"></script>
+<script src="assets/vendor/choices.js/public/assets/scripts/choices.min.js"></script>
+<script src="assets/vendor/glightbox-master/dist/js/glightbox.min.js"></script>
+<script src="assets/vendor/flatpickr/dist/flatpickr.min.js"></script>
+<script src="assets/vendor/plyr/plyr.js"></script>
+<script src="assets/vendor/dropzone/dist/min/dropzone.min.js"></script>
+<script src="assets/vendor/zuck.js/dist/zuck.min.js"></script>
+<script src="assets/js/zuck-stories.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+<!-- Theme Functions -->
+<script src="assets/js/functions.js"></script>
+
+
+</body>
+
+</html>

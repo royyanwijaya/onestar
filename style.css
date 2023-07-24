@@ -1,0 +1,28 @@
+.card-height
+{
+    height: 172px;
+}
+
+.carousel-cell {
+    width: 40%;
+    /* half-width */
+    margin-right: 10px;
+}
+
+.flickity-button
+{
+    display: none;
+}
+
+/* position dots up a bit */
+.flickity-page-dots {
+    bottom: -22px;
+}
+
+/* dots are lines */
+.flickity-page-dots .dot {
+    height: 4px;
+    width: 40px;
+    margin: 0;
+    border-radius: 0;
+}

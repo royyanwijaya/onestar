@@ -36,9 +36,157 @@
 </head>
 
 <body>
+
+	<!-- **************** HEADER **************** -->
+	<header class="navbar-light fixed-top header-static bg-mode">
+
+		<nav class="navbar navbar-expand-lg">
+
+			<div class="container-fluid px-lg-5">
+
+				<!-- Logo START -->
+				<a class="navbar-brand" href="index.html">
+					<img class="light-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">
+					<img class="dark-mode-item navbar-brand-item" src="assets/images/logo.svg" alt="logo">			
+				</a>
+	
+				<!-- Responsive navbar toggler -->
+				<button class="navbar-toggler ms-auto icon-md btn btn-light p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-animation">
+					  <span></span>
+					  <span></span>
+					  <span></span>
+					</span>
+				</button>
+	
+				<!-- Main navbar START -->
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+	
+					<ul class="navbar-nav navbar-nav-scroll mx-auto">
+
+						<!-- Nav item 1 Demos -->
+						<li class="nav-item dropdown">
+							<a class="nav-link active dropdown-toggle" href="#" id="homeMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demo</a>
+							<ul class="dropdown-menu" aria-labelledby="homeMenu">
+								<li> <a class="dropdown-item" href="index.html">Home default</a></li>
+								<li> <a class="dropdown-item" href="index-classic.html">Home classic</a></li>
+								<li> <a class="dropdown-item active" href="index-post.html">Home post</a></li>
+								<li> <a class="dropdown-item" href="index-video.html">Home video</a></li>
+								<li> <a class="dropdown-item" href="index-event.html">Home event</a></li>
+								<li> <a class="dropdown-item" href="landing.html">Landing page</a></li>
+								<li> <a class="dropdown-item" href="app-download.html">App download</a></li>
+				  <li class="dropdown-divider"></li>
+								<li>
+									<a class="dropdown-item" href="https://themes.getbootstrap.com/store/webestica/" target="_blank">
+										<i class="text-success fa-fw bi bi-cloud-download-fill me-2"></i>Buy Social!
+									</a> 
+								</li>
+							</ul>
+						</li>
+
+						<!-- Nav item 2 Pages -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="pagesMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+							<ul class="dropdown-menu" aria-labelledby="pagesMenu">
+								<li> <a class="dropdown-item" href="albums.html">Albums</a></li>
+								<li> <a class="dropdown-item" href="celebration.html">Celebration</a></li>
+				  <li> <a class="dropdown-item" href="messaging.html">Messaging</a></li>
+								<!-- Dropdown submenu -->
+								<li class="dropdown-submenu dropend"> 
+					<a class="dropdown-item dropdown-toggle" href="#!">Profile</a>
+									<ul class="dropdown-menu" data-bs-popper="none">
+										<li> <a class="dropdown-item" href="my-profile.html">Feed</a> </li>
+										<li> <a class="dropdown-item" href="my-profile-about.html">About</a> </li>
+										<li> <a class="dropdown-item" href="my-profile-connections.html">Connections</a> </li>
+										<li> <a class="dropdown-item" href="my-profile-media.html">Media</a> </li>
+										<li> <a class="dropdown-item" href="my-profile-videos.html">Videos</a> </li>
+										<li> <a class="dropdown-item" href="my-profile-events.html">Events</a> </li>
+										<li> <a class="dropdown-item" href="my-profile-activity.html">Activity</a> </li>
+									</ul>
+								</li>
+								<li> <a class="dropdown-item" href="events.html">Events</a></li>
+								<li> <a class="dropdown-item" href="events-2.html">Events 2</a></li>
+								<li> <a class="dropdown-item" href="event-details.html">Event details</a></li>
+								<li> <a class="dropdown-item" href="event-details-2.html">Event details 2</a></li>
+								<li> <a class="dropdown-item" href="groups.html">Groups</a></li>
+								<li> <a class="dropdown-item" href="group-details.html">Group details</a></li>
+								<li> <a class="dropdown-item" href="post-videos.html">Post videos</a></li>
+								<li> <a class="dropdown-item" href="post-video-details.html">Post video details</a></li>
+								<li> <a class="dropdown-item" href="post-details.html">Post details</a></li>
+								<li> <a class="dropdown-item" href="video-details.html">Video details</a></li>
+				  <li> <a class="dropdown-item" href="blog.html">Blog</a></li>
+								<li> <a class="dropdown-item" href="blog-details.html">Blog details</a></li>
+				  
+								<!-- Dropdown submenu levels -->
+								<li class="dropdown-divider"></li>
+								<li class="dropdown-submenu dropend">
+									<a class="dropdown-item dropdown-toggle" href="#">Dropdown levels</a>
+									<ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+										<li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+										<li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+										<!-- dropdown submenu open left -->
+										<li class="dropdown-submenu dropstart">
+											<a class="dropdown-item dropdown-toggle" href="#">Dropdown (start)</a>
+											<ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+												<li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+												<li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+											</ul>
+										</li>
+										<li> <a class="dropdown-item" href="#">Dropdown item</a> </li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+	
+						<!-- Nav item 3 Post -->
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="postMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account </a>
+							<ul class="dropdown-menu" aria-labelledby="postMenu">
+				  <li> <a class="dropdown-item" href="create-page.html">Create a page</a></li>
+								<li> <a class="dropdown-item" href="settings.html">Settings</a> </li>
+								<li> <a class="dropdown-item" href="notifications.html">Notifications</a> </li>
+								<li> <a class="dropdown-item" href="help.html">Help center</a> </li>
+								<li> <a class="dropdown-item" href="help-details.html">Help details</a> </li>
+				  <!-- dropdown submenu open left -->
+				  <li class="dropdown-submenu dropstart">
+					<a class="dropdown-item dropdown-toggle" href="#">Authentication</a>
+					<ul class="dropdown-menu dropdown-menu-end" data-bs-popper="none">
+					  <li> <a class="dropdown-item" href="sign-in.html">Sign in</a> </li>
+					  <li> <a class="dropdown-item" href="sign-up.html">Sing up</a> </li>
+					  <li> <a class="dropdown-item" href="forgot-password.html">Forgot password</a> </li>
+					  <li class="dropdown-divider"></li>
+					  <li> <a class="dropdown-item" href="sign-in-advance.html">Sign in advance</a> </li>
+					  <li> <a class="dropdown-item" href="sign-up-advance.html">Sing up advance</a> </li>
+					  <li> <a class="dropdown-item" href="forgot-password-advance.html">Forgot password advance</a> </li>
+					</ul>
+				  </li>
+				  <li> <a class="dropdown-item" href="error-404.html">Error 404</a> </li>
+				  <li> <a class="dropdown-item" href="offline.html">Offline</a> </li>
+				  <li> <a class="dropdown-item" href="privacy-and-terms.html">Privacy & terms</a> </li>
+							</ul>
+						</li>
+	
+						<!-- Nav item 4 Mega menu -->
+						<li class="nav-item">
+							<a class="nav-link" href="my-profile-connections.html">My network</a>
+						</li>
+
+					</ul>
+				</div>
+	
+				<!-- Nav right START -->
+				<button class="btn btn-primary lift">
+					Log in / Register
+				</button>
+
+			</div>
+
+		</nav>
+
+	</header>
 	
 	<!-- **************** MAIN CONTENT START **************** -->
-	<main class="pt-5">
+	<main class="pt-5 pb-5">
 	
 		<div class="container">
 
@@ -46,42 +194,40 @@
 				
 				<div class="row pb-5 bg-white g-0 rounded-2">
 
-					<div class="h-200px" style="border-top-left-radius: 0.4rem; border-top-right-radius: 0.4rem; background-image:url(assets/images/bg/BG\ cover\ placeholder.png); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
+					<div class="h-200px" style="border-top-left-radius: 0.4rem; border-top-right-radius: 0.4rem; background-image:url(assets/images/bg/bg-office.png); background-position: center; background-size: cover; background-repeat: no-repeat;"></div>
 
 					<div class="col-12 col-md-3 text-center ps-md-5">
 	
 						<div class="avatar avatar-xxxl mt-n5 mb-3 mb-md-0">
-							<img class="avatar-img rounded-circle border border-white border-3" alt="Profile picture" src="assets/images/avatar/people-placeholder.svg">
+							<img class="avatar-img rounded-circle border border-white border-3" alt="Profile picture" src="assets/images/avatar/placeholder-formal-man.jpg">
 						</div>
 		
 					</div>
 
 					<div class="col-12 col-md-9 text-center text-md-start">
 
-						<h1 class="h3 fw-semibold mt-2 mt-md-4">
+						<h1 class="h1 fw-semibold mt-2 mt-md-4">
 							Anonyumous Lizard <i class="neu-so-tick-circle text-primary"></i>
 						</h1>
 
-						<p class="mb-2">
+						<p class="lead fw-semibold mb-2">
 							Software Engineer at <a class="text-primary" href="#!">Met4</a>
 						</p>
 
-						<a class="text-secondary" href="#!">
+						<a class="text-secondary fs-5" href="#!">
 							<span class="fw-semibold">24k</span> followers
 						</a>
 
-						<span class="text-secondary ms-2">
-							This user receives <span class="fw-semibold">20</span> new one-star reviews every year
+						<span class="text-secondary ms-2 fs-5">
+							This user receives <span class="fw-semibold">20</span>
+							<svg width="20" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#2563eb"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
+							new reviews every year
 						</span>
 
 						<div class="mt-3">
 
 							<button class="btn btn-secondary rounded-pill">
-								<i class="neu-add-lg"></i> Follow
-							</button>
-
-							<button class="btn btn-outline-secondary rounded-pill ms-1">
-								<i class="fe fe-check"></i> Vouch this profile
+								<i class="neu-profile"></i> Claim this profile
 							</button>
 
 						</div>
@@ -127,12 +273,10 @@
 
 										<div class="text-end">
 
-											<button class="btn btn-secondary btn-sm mt-2">
-												Claim this profile
-											</button>
-
 											<button class="btn btn-outline-secondary btn-sm ms-2 mt-2">
-												Post an anonymous 1-star review
+												Post an anonymous
+												<svg width="16" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#2563eb"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
+												review
 											</button>
 
 										</div>
@@ -195,7 +339,7 @@
 														<svg width="24" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#cbd5e1"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
 													</span>
 
-													<p class="mt-3 mb-0">
+													<p class="mt-3 mb-0 lead">
 														This is shit
 													</p>
 
@@ -249,7 +393,7 @@
 														<svg width="24" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#cbd5e1"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
 													</span>
 
-													<p class="mt-3 mb-0">
+													<p class="mt-3 mb-0 lead">
 														I wanted to love this place. I limit eating out. My friend and I were prepared to visit the Ramen place down the street, but it was closed. I heard great things about Go Go 7 for neighborhood associates, and Even the Yelp reviews are outstanding. During my visit on March 23rd, 2022, I first found a long dog hair in the Bibimbap. I didn't take a photo because I didn't want to make a big deal in front of the other customers enjoying their food. I kindly brought awareness to the lady; she apologized and replaced the dish. Usually, that would be my queue leave, but I was out with a friend enjoying herself.<br>
 														<br>
 														We ordered a few dishes to share. Everything was fine until I started to look closely at the food. We found hair entangled in the Bulgogi beef. The food made me feel sick, so I stopped eating. I later grabbed probiotics at whole foods. The air is stale in the restaurant; the floors are dirty. When the young man came to remove the other customer's dishes, he didn't wipe the table. I feel like this was a reminder from God to eat at home. Since the pandemic, I have become more food conscious, so this experience messed with my gut health and head. I don't enjoy leaving a 1 star. I was prepared to go three stars until we discovered the second hair in the dish my friend ordered. I am grateful I examine food. Please examine yours and have a better experience than I did.
@@ -305,7 +449,7 @@
 														<svg width="24" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#cbd5e1"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
 													</span>
 
-													<p class="mt-3 mb-0">
+													<p class="mt-3 mb-0 lead">
 														Good service. I ordered beef bibimbap. Everything was good until I chewed a piece of plastic wrap under the food. Food safety alerted.<br>
 														<br>
 														Although I have been a regular customer, I may not come again.
@@ -361,7 +505,7 @@
 														<svg width="24" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#cbd5e1"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
 													</span>
 
-													<p class="mt-3 mb-0">
+													<p class="mt-3 mb-0 lead">
 														Never going back to this place ever again! My brother tried it before and said it was bad and I went with my friend during covid. The service was terrible tables were barely wiped down. The food was awful! They give you basically all rice and barely any meat for that price definitely not worth it. My friend and I had to go to McDonald's afterwards cause we couldn't finish our food.
 													</p>
 
@@ -415,7 +559,7 @@
 														<svg width="24" height="auto" viewBox="0 0 48 48"><path d="m43.0897,10.35361L26.24996.6043c-1.39173-.80574-3.10819-.80574-4.49992,0L4.9103,10.35361c-1.3868.80286-2.24064,2.28388-2.24064,3.88631v19.52015c0,1.60243.85384,3.08338,2.24064,3.88624l16.83974,9.74932c1.39173.80581,3.10819.80581,4.49992,0l16.83974-9.74932c1.3868-.80286,2.24064-2.28381,2.24064-3.88624V14.23993c0-1.60243-.85384-3.08345-2.24064-3.88631Z" fill="#cbd5e1"/><path d="m33.65588,22.40829l-4.41321,3.1842c-.3385.24426-.48969.6731-.37915,1.07568l1.72778,6.29388c.20721.75476-.66101,1.34229-1.28467.86932l-4.70233-3.56635c-.3573-.27094-.85132-.27094-1.20862,0l-4.70233,3.56635c-.62366.47296-1.49188-.11456-1.28467-.86932l1.72778-6.29388c.11053-.40259-.04065-.83142-.37915-1.07568l-4.41321-3.1842c-.64069-.46228-.31366-1.47443.47638-1.47443h5.68164c.43781,0,.82471-.28479.95483-.70282l1.76056-5.65631c.23901-.76794,1.32593-.76794,1.56494,0l1.76056,5.65631c.13013.41803.51703.70282.95483.70282h5.68164c.79004,0,1.11707,1.01215.47638,1.47443Z" fill="#fff"/></svg>
 													</span>
 
-													<p class="mt-3 mb-0">
+													<p class="mt-3 mb-0 lead">
 														I stopped by this place with my dog to pick up some coffee. We sat outside and it was only seconds before the manager came over and told me that my dog was not welcome. If my dog isn't welcome in your establishment, then you don't get my business. NEVER GOING BACK.
 													</p>
 
@@ -834,6 +978,81 @@
 		</div>
 	
 	</main>
+
+	<!-- **************** FOOTER **************** -->
+	<footer class="pt-5 bg-mode">
+		<div class="container">
+		  <div class="row g-4">
+			<div class="col-sm-6 col-lg-3">
+			  <!-- Footer Widget -->
+			  <img src="assets/images/logo.svg" alt="Logo" width="48">
+			  <p class="mt-3">Match way these she avoids seeing death their fat off. </p>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+			  <!-- Footer Widget -->
+			  <h5 class="mb-4">Download</h5>
+			  <ul class="nav flex-column">
+				<li class="nav-item"><a class="nav-link pt-0" href="#"> <i class="bi bi-globe fa-fw pe-2"></i>Web Browser</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> <i class="bi bi-windows fa-fw pe-2"></i>Windows</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> <i class="bi bi-apple fa-fw pe-2"></i>macOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> <i class="bi bi-phone fa-fw pe-2"></i>iOS & Android</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+			  <!-- Footer Widget -->
+			  <h5 class="mb-4">About</h5>
+			  <ul class="nav flex-column">
+				<li class="nav-item"><a class="nav-link pt-0" href="#"> About social</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Security</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Customer Support</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Partners</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Careers - <b> Join Us! </b></a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-6 col-lg-3">
+			  <!-- Footer Widget -->
+			  <h5 class="mb-4">Resources</h5>
+			  <ul class="nav flex-column">
+				<li class="nav-item"><a class="nav-link pt-0" href="#"> Join</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Help Center</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Developers</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Status</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> Communities </a></li>
+			  </ul>
+			</div>
+		  </div>
+		</div>
+		<hr class="mb-0 mt-5">
+		<div class="bg- light py-3">
+		  <div class="container">
+			<div class="row">
+			  <div class="col-lg-6">
+				<!-- Footer nav START -->
+				<ul class="nav justify-content-center justify-content-lg-start lh-1">
+				  <li class="nav-item">
+					<a class="nav-link ps-0" href="#">Support </a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" target="_blank" href="docs/index.html">Docs </a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Terms of Use</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Privacy &amp; terms</a>
+				  </li>
+				</ul>
+				<!-- Footer nav START -->
+			  </div>
+			  <div class="col-lg-6">
+				<!-- Copyright START -->
+				<p class="text-center text-lg-end mb-0">©2023 <a class="text-body" target="_blank" href="#!"> OneStar </a>All rights reserved.</p>
+				<!-- Copyright END -->
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</footer>
 	
 	<!-- Bootstrap JS -->
 	<script src="assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

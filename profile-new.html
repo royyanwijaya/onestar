@@ -87,7 +87,7 @@
 
 				</div>
 
-				<button type="button" class="btn btn-link">
+				<button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#newRole">
 					<i class="fa-regular fa-plus"></i> Add new position
 				</button>
 				
@@ -103,7 +103,168 @@
 
 		</div>
 
-	  </div>	  
+	</div>
+
+	<div class="modal fade" id="newRole" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="newRoleLabel" aria-hidden="true">
+		
+		<div class="modal-dialog modal-lg modal-dialog-centered">
+
+		  <div class="modal-content">
+
+			<div class="modal-header">
+			  <h1 class="modal-title fs-5 fw-normal" id="newRoleLabel">Add experience</h1>
+			  <button type="button" class="btn-close" data-bs-toggle="modal" data-bs-target="#editProfile"></button>
+			</div>
+
+			<div class="modal-body">
+
+			  <form class="mb-5">
+
+				<h3 class="fs-4 fw-semibold mb-3">
+					Basic info
+				</h3>
+
+				<div class="mb-3">
+					<label for="firstName" class="form-label">Title</label>
+					<input type="text" class="form-control" id="firstName" placeholder="Input your title">
+				</div>
+
+				<label class="form-label">Employement type</label>
+
+				<div class="dropdown mb-3">
+
+					<a class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Please select
+					</a>
+
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="#">Full-time</a></li>
+					  <li><a class="dropdown-item" href="#">Part-time</a></li>
+					  <li><a class="dropdown-item" href="#">Self-employed</a></li>
+					  <li><a class="dropdown-item" href="#">Freelance</a></li>
+					  <li><a class="dropdown-item" href="#">Contract</a></li>
+					  <li><a class="dropdown-item" href="#">Internship</a></li>
+					  <li><a class="dropdown-item" href="#">Apprenticeship</a></li>
+					  <li><a class="dropdown-item" href="#">Seasonal</a></li>
+					</ul>
+
+				</div>
+
+				<div class="mb-3">
+					<label for="firstName" class="form-label">Company name</label>
+					<input type="text" class="form-control" id="firstName" placeholder="Input company name">
+				</div>
+
+				<div class="mb-3">
+					<label for="firstName" class="form-label">Location</label>
+					<input type="text" class="form-control" id="firstName" placeholder="Ex: Berlin, Germany">
+				</div>
+				
+
+				<label class="form-label">Location type</label>
+
+				<div class="dropdown mb-4">
+
+					<a class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+						Please select
+					</a>
+
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="#">On-site</a></li>
+					  <li><a class="dropdown-item" href="#">Hybrid</a></li>
+					  <li><a class="dropdown-item" href="#">Remote</a></li>
+					</ul>
+
+				</div>
+
+				<div class="form-check form-control-lg">
+					<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+					<label class="form-check-label" for="flexCheckChecked">
+					  I am currently working on this role
+					</label>
+				</div>
+
+				<label class="form-label">Start date</label>
+
+				<div class="mb-3">
+
+					<div class="dropdown d-inline-block">
+
+						<a class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Month
+						</a>
+	
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Jan</a></li>
+						  <li><a class="dropdown-item" href="#">Feb</a></li>
+						  <li><a class="dropdown-item" href="#">Mar</a></li>
+						</ul>
+	
+					</div>
+
+					<div class="dropdown d-inline-block">
+
+						<a class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Year
+						</a>
+	
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">2023</a></li>
+						  <li><a class="dropdown-item" href="#">2022</a></li>
+						  <li><a class="dropdown-item" href="#">2021</a></li>
+						</ul>
+	
+					</div>
+
+				</div>
+
+				<label class="form-label">End date</label>
+
+				<fieldset disabled class="mb-3">
+
+					<div class="dropdown d-inline-block">
+
+						<a class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Month
+						</a>
+	
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">Jan</a></li>
+						  <li><a class="dropdown-item" href="#">Feb</a></li>
+						  <li><a class="dropdown-item" href="#">Mar</a></li>
+						</ul>
+	
+					</div>
+
+					<div class="dropdown d-inline-block">
+
+						<a class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Year
+						</a>
+	
+						<ul class="dropdown-menu">
+						  <li><a class="dropdown-item" href="#">2023</a></li>
+						  <li><a class="dropdown-item" href="#">2022</a></li>
+						  <li><a class="dropdown-item" href="#">2021</a></li>
+						</ul>
+	
+					</div>
+
+				</fieldset>
+
+			  </form>
+			  
+			</div>
+
+			<div class="modal-footer">
+			  <button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+
+		  </div>
+
+		</div>
+
+	</div>
 
 	<section class="bg-warning">
 
